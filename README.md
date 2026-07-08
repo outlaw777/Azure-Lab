@@ -13,7 +13,7 @@ This lab demonstrated how to automate Azure identity creation, governance tasks
 
 ---
 
-# 🚀 Onboard Automator  
+## Onboard Automator  
 ### Manage Azure identities and automate resource provisioning
 
 The **Onboard Automator** is a Logic App workflow that listens for onboarding requests and automatically performs identity creation, group assignment, resource setup, and notification tasks.
@@ -22,7 +22,7 @@ This eliminates manual steps and ensures consistent, repeatable onboarding acros
 
 ---
 
-## 🧩 Azure Services Used
+##  Azure Services Used
 
 - **Azure Active Directory (Azure AD)**  
   User creation, identity management, group assignment.
@@ -38,7 +38,7 @@ This eliminates manual steps and ensures consistent, repeatable onboarding acros
 
 ---
 
-## 🔄 Workflow Steps
+##  Workflow Steps
 
 ### 1. **Trigger: When a New Email Arrives (V3)**
 The workflow begins when an onboarding request email is received.
@@ -63,7 +63,7 @@ Executes additional queries for logging, validation, or reporting.
 
 ---
 
-## 🧱 Architecture Diagram
+##  Architecture Diagram
 
 ```text
 ┌──────────────────────────────┐
@@ -95,7 +95,7 @@ Executes additional queries for logging, validation, or reporting.
 └──────────────────────────────┘
 ```
 
-## 📦 Setup Instructions
+##  Setup Instructions
 1. Azure AD Configuration
  - Create or use an existing Azure AD tenant.
 
@@ -121,7 +121,7 @@ Executes additional queries for logging, validation, or reporting.
 
 - Set up email notifications.
 
-## 🎯 Use Cases
+##  Use Cases
 Automated employee onboarding
 
 - Consistent identity provisioning
@@ -132,10 +132,10 @@ Automated employee onboarding
 
 - Cloud operations automation
 
-## 📄 License
+##  License
 - This project is licensed under the MIT License.
 
-## 🤝 Contributing
+##  Contributing
 - Pull requests and feature enhancements are welcome.
 - Please open an issue for bugs or workflow improvements.
 
